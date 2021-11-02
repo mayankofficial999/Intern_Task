@@ -1,0 +1,7 @@
+Goal_Reach: False
+Move_Circle: False
+Lawn_Move : False
+Final_Point : [0,0,0]
+Center : [0,0]
+Radius : 0
+Lawn: [0,0]

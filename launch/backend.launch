@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find vrx_gazebo)/launch/vrx.launch"/>
+  <include file="$(find wamv_gazebo)/launch/localization_example.launch"/>
+  <rosparam command="load" file="$(find intern_task)/config/init_param.yaml" />
+  <node pkg="intern_task" type="move.py" name="Task_Control" output="screen" />
+</launch>
